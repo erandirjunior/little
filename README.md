@@ -55,6 +55,7 @@ Route::add(['/', 'Exemplo', 'hello']);
 A primeira linha é para criar um apelido para a classe Route, evitando que a cada vez que uma nova rota fosse adicionada, fosse necessário escrever todo o namespace da classe.  
 A linha seguinte é um pequeno exemplo de uso de uma rota.  
 
+### Adicionando rotas
 Adicione suas rotas no arquivo App/web.php com a seguinte configuração:  
 ```php
 Route::add(['/', 'Exemplo', 'hello']);
