@@ -4,7 +4,7 @@
 **little** é um framework desenvolvido para auxiliar novos programadores na arquitetura <a href='#mvc'>*MVC*</a>, além disso, também tem como objetivo ajudar os programadores a serem introduzidos ao uso de um framework.  
 
 ## Por que?
-Muitas dúvidas surgem a cada avanço no estudo de uma linguagem, nesse caso o PHP. Pensando nessas dúvidas resolvi criar esse framework para ajudar um pouco a sanar as possíveís dúvidas que surgem.  
+Muitas dúvidas surgem a cada avanço no estudo de uma linguagem, nesse caso o PHP. Pensando nessas dúvidas resolvi criar esse framework para sanar as possíveís dúvidas que surgem em relação a *MVC* e *Framework*.  
 
 <p id='mvc'></p>
 
