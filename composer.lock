@@ -1,0 +1,56 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "edab10c81c9f709a2b5e6f0957e9de9d",
+    "content-hash": "270c92e13a33d63ec77fc03faf782501",
+    "packages": [
+        {
+            "name": "config/little",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fsoaresjunior/config.git",
+                "reference": "e8b0fc91718c773614ea1664ae77cd0d9176cd0d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fsoaresjunior/config/zipball/e8b0fc91718c773614ea1664ae77cd0d9176cd0d",
+                "reference": "e8b0fc91718c773614ea1664ae77cd0d9176cd0d",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Config\\": "src/Config/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Antonio Erandir Feitosa Soares Junior",
+                    "email": "aefs12junior@gmail.com"
+                }
+            ],
+            "description": "Arquivos de configuração do framework little",
+            "time": "2017-05-02 18:09:30"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "config/little": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.0"
+    },
+    "platform-dev": []
+}

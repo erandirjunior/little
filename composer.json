@@ -1,0 +1,20 @@
+{
+    "name": "little/little",
+    "description": "framework little",
+    "authors": [{
+        "name": "Antonio Erandir Feitosa Soares Junior",
+        "email": "aefs12junior@gmail.com"
+    }],
+    "license": "MIT",
+    "type": "project",
+    "version" : "v1.1.1", 
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    },
+    "require": {
+        "php": ">=7.0",
+        "config/little" : "dev-master"
+    }
+}
