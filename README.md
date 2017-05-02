@@ -29,6 +29,8 @@ Caso tudo esteja certo, rode o comando abaixo, substituindo *path* pelo nome da 
 composer create-project little/little path
 ```    
 
+#### Para uma melhor utilização, crie um virtualhost ou utilize o servidor embutido do PHP  
+
 ## O Framework
 
 O framework utiliza alguns nomes em inglês para ajudar na introdução de desenvolvedores ao mundo dos frameworks, onde os principais frameworks são completamente em inglês. A pasta APP, é nela que seus arquivos deverão ficar, na qual existe subdivisões, como:  
