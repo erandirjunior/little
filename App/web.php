@@ -3,4 +3,4 @@
 use Config\Init\Route;
 
 
-Route::add(['/', 'Exemplo', 'hello']);
+Route::add(['/', 'Exemple', 'hello']);
