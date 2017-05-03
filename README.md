@@ -172,7 +172,9 @@ class Exemple extends Controller
 }
 ```
 
-As classes que estenderem de Controller, herdarão um método chamado template, seu uso será para chamar a view desejada, evitando assim o uso de require:  
+As classes que estenderem de Controller, herdarão alguns métodos descritos a seguir:  
+
+*template()* - método que serve para chamar a view desejada, evitando assim o uso de require:  
 ```php
 class Exemple extends Controller
 {
@@ -183,13 +185,13 @@ class Exemple extends Controller
 }
 ```
 
-Outra coisas herdada da classe Controller é o atributo $view, ele recebe uma instância de classe anônima, e nele, você poderá adicionar valores que posteriomente utilizará na view:  
+*view* - atributo para enviar valores uma página de vizualização:  
 ```php
 class Exemple extends Controller
 {
     public function hello()
     {
-        $this->view->nome = "Enviando dados para a view";
+        $this->view->exemplo = "Enviando dados para a view";
         return $this->template('index');
     }
 }
@@ -197,6 +199,42 @@ class Exemple extends Controller
 
 Na view você chamará o atributo igual como está na sua classe controller.  
 
-## MAIS
+*input()* - método utilizado para retornar valores enviados via POST. Caso desejar pegar um valor especifico, basta passar o campo name do valor que se deseja pegar;
+```php
+class Exemple extends Controller
+{
+    public function hello()
+    {
+        $nome = $this->input('nome');
+        return $this->template('index');
+    }
+}
+```  
+
+Caso nenhum valor seja passado por parâmetro, o método input() retornará um array com todos os valores enviados via POST.  
+```php
+class Exemple extends Controller
+{
+    public function hello()
+    {
+        $valoresDePost = $this->input();
+        return $this->template('index');
+    }
+}
+```  
+
+*get()* - método para retorna valores do tipo GET. Este método retorna um array de valores do tipo GET.  
+```php
+class Exemple extends Controller
+{
+    public function hello()
+    {
+        $valoresDeGet = $this->get();
+        return $this->template('index');
+    }
+}
+``` 
+
+## Mais Informações
 
 Como o framework é bem limitado, pode ser acrescido de novas funcionalidades, veja a página de [configuração do framework](https://github.com/fsoaresjunior/config), faça um fork e melhore o mesmo.  
