@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "edab10c81c9f709a2b5e6f0957e9de9d",
-    "content-hash": "270c92e13a33d63ec77fc03faf782501",
+    "hash": "2c957aed01e592feb75db4fb79b8ce14",
+    "content-hash": "beb352940d1c5b4cd90edf24bf3c01d3",
     "packages": [
         {
             "name": "config/little",
@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fsoaresjunior/config.git",
-                "reference": "e8b0fc91718c773614ea1664ae77cd0d9176cd0d"
+                "reference": "6ebafeb7181a03ae6971a0051547f16f7edc0c97"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fsoaresjunior/config/zipball/e8b0fc91718c773614ea1664ae77cd0d9176cd0d",
-                "reference": "e8b0fc91718c773614ea1664ae77cd0d9176cd0d",
+                "url": "https://api.github.com/repos/fsoaresjunior/config/zipball/6ebafeb7181a03ae6971a0051547f16f7edc0c97",
+                "reference": "6ebafeb7181a03ae6971a0051547f16f7edc0c97",
                 "shasum": ""
             },
             "type": "library",
@@ -38,7 +38,7 @@
                 }
             ],
             "description": "Arquivos de configuração do framework little",
-            "time": "2017-05-02 18:09:30"
+            "time": "2017-05-03 01:22:23"
         }
     ],
     "packages-dev": [],

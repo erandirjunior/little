@@ -5,5 +5,7 @@
  */
 use Config\Init\Route;
 
-
+/**
+ * Rota de exemplo adicionada
+ */
 Route::add(['/', 'Exemple', 'hello']);
