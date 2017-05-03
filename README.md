@@ -183,6 +183,20 @@ class Exemple extends Controller
 }
 ```
 
+Outra coisas herdada da classe Controller é o atributo $view, ele recebe uma instância de classe anônima, e nele, você poderá adicionar valores que posteriomente utilizará na view:  
+```php
+class Exemple extends Controller
+{
+    public function hello()
+    {
+        $this->view->nome = "Enviando dados para a view";
+        return $this->template('index');
+    }
+}
+```  
+
+Na view você chamará o atributo igual como está na sua classe controller.  
+
 ## MAIS
 
 Como o framework é bem limitado, pode ser acrescido de novas funcionalidades, veja a página de [configuração do framework](https://github.com/fsoaresjunior/config), faça um fork e melhore o mesmo.  
