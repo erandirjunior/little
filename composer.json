@@ -15,6 +15,6 @@
     },
     "require": {
         "php": ">=7.0",
-        "config/little" : "dev-master"
+        "config/little" : "v1.3.1"
     }
 }
