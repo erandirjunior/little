@@ -51,7 +51,7 @@ Acesse o arquivo App/web.php. Você verá algo assim:
 
 use Config\Init\Route;
 
-Route::add(['/', 'Exemple', 'hello']);
+Route::add(['/', 'Example', 'hello']);
 ```
 
 A primeira linha é para criar um apelido para a classe Route, evitando que a cada vez que uma nova rota fosse adicionada, fosse necessário escrever todo o namespace da classe.  
@@ -60,7 +60,7 @@ A linha seguinte é um pequeno exemplo de uso de uma rota.
 ### Adicionando rotas
 Adicione suas rotas no arquivo App/web.php com a seguinte configuração:  
 ```php
-Route::add(['/', 'Exemple', 'hello']);
+Route::add(['/', 'Example', 'hello']);
 ```
 Onde o primeiro parametro do array é a sua uri, o segundo a sua classe que está na pasta controller e o terceiro parametro é o método desejado.  
 
@@ -167,7 +167,7 @@ Toda classe controller que for utilizada pela rota, deverá estender a classe **
 ```php
 namespace App\Controllers;
 
-class Exemple extends Controller
+class Example extends Controller
 {
 }
 ```
@@ -176,7 +176,7 @@ As classes que estenderem de Controller, herdarão alguns métodos descritos a s
 
 *template()* - método que serve para chamar a view desejada, evitando assim o uso de require:  
 ```php
-class Exemple extends Controller
+class Example extends Controller
 {
     public function hello()
     {
@@ -187,7 +187,7 @@ class Exemple extends Controller
 
 *view* - atributo para enviar valores uma página de vizualização:  
 ```php
-class Exemple extends Controller
+class Example extends Controller
 {
     public function hello()
     {
@@ -201,7 +201,7 @@ Na view você chamará o atributo igual como está na sua classe controller.
 
 *input()* - método utilizado para retornar valores enviados via POST. Caso desejar pegar um valor especifico, basta passar o campo name do valor que se deseja pegar;
 ```php
-class Exemple extends Controller
+class Example extends Controller
 {
     public function hello()
     {
@@ -213,7 +213,7 @@ class Exemple extends Controller
 
 Caso nenhum valor seja passado por parâmetro, o método input() retornará um array com todos os valores enviados via POST.  
 ```php
-class Exemple extends Controller
+class Example extends Controller
 {
     public function hello()
     {
@@ -225,7 +225,7 @@ class Exemple extends Controller
 
 *get()* - método para retorna valores do tipo GET. Este método retorna um array de valores do tipo GET.  
 ```php
-class Exemple extends Controller
+class Example extends Controller
 {
     public function hello()
     {
