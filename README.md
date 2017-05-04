@@ -106,7 +106,7 @@ use Config\Model\Table;
 
 class MyModel extends Table
 {
-    protected $table = "mymodel";
+    protected static $table = "mymodel";
 }
 ```
 Tornando sua classe uma Table e assim adquirindo novos métodos, como:  
