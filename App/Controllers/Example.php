@@ -4,7 +4,7 @@ namespace App\Controllers;
 
 use Config\Controller\Controller;
 
-class Exemple extends Controller
+class Example extends Controller
 {
     public function hello()
     {
